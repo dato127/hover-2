@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.container {
+    width: 378px;
+    height: 274px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    background: #F5F5F5;
+    margin: auto;
+    margin-top: 142px;
+}
+
+.email {
+    color: #616161;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 30px 0px 6px 30px;
+}
+
+.container-input-1 {
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    background: #FFF;
+    margin-left: 30px;
+    padding-left: 11px;
+    color: #9E9E9E;
+    font-family: "Inter";
+    font-size: 16px;
+    outline: none;
+    font-weight: 500;
+}
+
+.container-input-1:hover {
+    border-radius: 4px;
+    border: 1px solid #BBB400;
+}
+
+/*container input 3*/
+.container-input-3 {
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: #FFD43A;
+    margin-top: 18px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.container-input-3:hover {
+    border-radius: 22.5px;
+    background: #BBB400;
+    font-size: 20px;
+    color: #7C0000;
+}
